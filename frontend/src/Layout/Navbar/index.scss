@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.mainNav {
+    height: 7vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+    .navLogo {
+        margin-top: 15px;
+
+        img {
+            width: 144px;
+            height: 35px;
+        }
+    }
+
+    .navWord {
+        margin-top: 20px;
+
+        .navLi {
+            margin: 25px;
+            color: white;
+        }
+    }
+}
